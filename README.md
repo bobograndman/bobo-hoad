@@ -12,7 +12,8 @@
 
 # <img height="50px" src="./screenshots/logo.png" />
 
-A self-hostable bookmark-everything app with a touch of AI for the data hoarders out there.
+### A modified clone of the Hoarder App for experimentation and customisation for my personal use.
+ *I claim no credit for any work here and am unexperienced in this area, feel free to contact me if this repo is causing any problems!*
 
 ![homepage screenshot](https://github.com/hoarder-app/hoarder/blob/main/screenshots/homepage.png?raw=true)
 
