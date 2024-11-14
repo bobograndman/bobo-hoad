@@ -47,9 +47,9 @@ jobs:
           target: ${{ matrix.target }}
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/bobo-hoad/${{ matrix.package }}:latest
-          cache-from: type=registry,ref=ghcr.io/bobo-hoad/bobo-build-cache:${{ matrix.target }}
-          cache-to: type=registry,mode=max,ref=ghcr.io/bobo-hoad/bobo-build-cache:${{ matrix.target }}
+          tags: ghcr.io/bobograndman/${{ matrix.package }}:latest
+          cache-from: type=registry,ref=ghcr.io/bobograndman/hoarder-build-cache:${{ matrix.target }}
+          cache-to: type=registry,mode=max,ref=ghcr.io/bobograndman/hoarder-build-cache:${{ matrix.target }}
 
       - name: Build ${{ matrix.package }} (release)
         uses: docker/build-push-action@v5
@@ -61,6 +61,6 @@ jobs:
           target: ${{ matrix.target }}
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/bobo-hoad/${{ matrix.package }}:latest
-          cache-from: type=registry,ref=ghcr.io/bobo-hoad/bobo-build-cache:${{ matrix.target }}
-          cache-to: type=registry,mode=max,ref=ghcr.io/bobo-hoad/bobo-build-cache:${{ matrix.target }}
+          tags: ghcr.io/bobograndman/${{ matrix.package }}:latest
+          cache-from: type=registry,ref=ghcr.io/bobograndman/hoarder-build-cache:${{ matrix.target }}
+          cache-to: type=registry,mode=max,ref=ghcr.io/bobograndman/hoarder-build-cache:${{ matrix.target }}
