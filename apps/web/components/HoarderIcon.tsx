@@ -12,7 +12,7 @@ export default function HoarderLogo({
     <span style={{ gap }} className="flex items-center">
       <HoarderLogoIcon height={height} className={`fill-foreground`} />
       <HoarderLogoText
-        height={(height * 2) / 3}
+        height={(height * 1) / 1}
         className={`fill-foreground`}
       />
     </span>

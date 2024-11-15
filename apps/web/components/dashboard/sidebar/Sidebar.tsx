@@ -44,7 +44,7 @@ export default async function Sidebar() {
       path: "/dashboard/tags",
     },
     {
-      name: "Archive",
+      name: "Archived",
       icon: <Archive size={18} />,
       path: "/dashboard/archive",
     },
